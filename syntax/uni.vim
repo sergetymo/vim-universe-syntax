@@ -9,7 +9,7 @@ elseif exists("b:current_syntax")
   finish
 endif
 
-:so $VIMRUNTIME/syntax/markdown.vim
+runtime! syntax/markdown.vim
 
 syn match uniTag '\v\@[a-z\-]+'
 syn match uniDate '\v\d{4}-\d{2}-\d{2}'
