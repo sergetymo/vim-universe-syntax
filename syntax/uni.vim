@@ -11,7 +11,8 @@ endif
 
 runtime! syntax/markdown.vim
 
-syn match uniTag '\v\@[a-z\-]+'
+" syn match uniTag '\v\@[a-z\-]+'
+syn match uniTag '\v\@\w+'
 syn match uniDate '\v\d{4}-\d{2}-\d{2}'
 syn match uniLink '\v\C([A-Z][a-z0-9]{1,}){2,}'
 
