@@ -1,6 +1,6 @@
 # vim filetype and syntax for Universe
 
-Universe is Zettelkasten-like note-taking setup for vanilla vim, based on
+Universe is Zettelkasten-like note-taking setup for vim, based on
 [great](https://www.edwinwenink.xyz/posts/42-vim_notetaking/)
 [posts](https://www.edwinwenink.xyz/posts/43-notes_tagging/)
 by Edwin Wenink.
@@ -12,7 +12,12 @@ without extension for easy navigation via `gf`.
 ## Installation via vim-plug
 Place this into your `.vimrc`:
 ```vim
-Plug 'sergetymo/vim-syntax-universe'
+Plug 'sergetymo/vim-universe-syntax'
+```
+
+## Installation via Packer
+```lua
+use 'sergetymo/vim-universe-syntax'
 ```
 
 Or follow instructions for your favourite plugin manager.
